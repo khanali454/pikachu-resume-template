@@ -18,7 +18,7 @@
 }
 
 .mainbox_left .img {
-    background-image: url(./2);
+    background-image: url(profile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
