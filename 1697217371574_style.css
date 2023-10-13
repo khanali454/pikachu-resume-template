@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+   background: #c5c5c5;
+}
+.pikachu-resume-cotainer{
+    width: 880px;
+    max-width: 880px;
+    margin: 20px auto;
+    background: #fff;
+    display: flex;
+}
+
+.pikachu-heading{
+   font-size: 18px;
+   position: relative;
+    font-weight: 700;
+    padding: 5px 0;
+    text-transform: uppercase;
+    color: rgb(0, 123, 246);
+ }
+
+ .pikachu-heading::before{
+   content: "";
+   position: absolute;
+   width: 70%;
+   height: 2px;
+   background: rgb(0, 123, 246);
+   bottom: 0px;
+ }
+
+/* pikachu-resume-left css */
+
+
+.pikachu-resume-left{
+    width: 250px;
+    padding-top: 15px;
+    padding-left: 15px;
+    overflow: hidden;
+}
+
+.pikachu-resume-left .pikachu-profile-img{
+    width: 235px;
+    height: 230px;
+    overflow: hidden;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.pikachu-resume-left .pikachu-profile-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+.pikachu-user-profile{
+   margin-top: 10px;
+}
+.pikachu-user-profile li{
+display: flex;
+align-items: center;
+margin-bottom: 8px;
+}
+
+.pikachu-user-profile li i{
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   width: 18px;
+   font-size: 14px;
+   color: rgba(33, 114, 246, 0.939);
+}
+
+.pikachu-user-profile li p{
+   width: calc(100% - 18px);
+   text-wrap: wrap;
+   margin-left: 10px;
+   font-size: 14px;
+   font-weight: 600;
+}
+.pikachu-user-profile li:first-child p{
+   font-weight: normal;
+}
+
+/* <!-- skills css --> */
+
+.pikachu-skill-name{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.pikachu-skill-level{
+    font-weight:100;
+}
+
+.pikachu-skill-indicator{
+    border: 4px solid rgb(43, 122, 249);
+    margin-bottom: 10px;
+}
+
+/* .pikachu-resume-right css */
+
+
+.pikachu-resume-right{
+    width: calc(100% - 250px);
+    padding:0 15px;
+    padding-top: 15px;
+}
+ .pikachu-profile-about{
+    background-color: rgb(0, 123, 246);
+    color: white;
+   padding: 10px;
+ }
+
+ .pikachu-about-top{
+   border-bottom: 1px solid rgb(216, 216, 216);
+   padding-bottom: 10px;
+   margin-bottom: 10px;
+ }
+
+ 
+ .pikachu-profile-name{
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: capitalize;
+ }
+
+ .pikachu-profile-intro{
+   font-size: 16px;
+   line-height: calc(16 * 1.5px);
+ }
+
+
+ /* <!-- work experience - css  start --> */
+.pikachu-work-experiences-container,.pikachu-education-container{
+   margin-top: 10px;
+}
+.pikachu_work_experience{
+   margin-top: 15px;
+}
+.pikachu_work_experience_highlights{
+ margin: 7px 0;
+ margin-left: 15px;
+}
+.pikachu_work_experience_highlights li{
+   margin: 3px 0;
+}
+
+.pikachu_work_experience_binfo{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 10px;
+}
+
+.pikachu_work_exp_binfo-left .pikachu_work_experience_company{
+   font-size: 17px;
+   line-height: calc(17 * 1.2px);
+   font-weight: bold;
+}
+
+.pikachu_work_exp_binfo-left .pikachu_work_experience_position{
+   font-size: 14px;
+   padding: 2px 0;
+   color: #646669;
+}
+
+.pikachu_dp_technology_date{
+   font-size: 14px;
+   color: #9c9fa6;
+}
+
+.pikachu_Web_url{
+   display: flex;
+   align-items: center;
+}
+
+.pikachu_Web_url i{
+   font-size: 14px;
+   color: rgba(33, 114, 246, 0.939);
+   margin-right: 10px;
+}
+.pikachu_Web_url a{
+   text-decoration: none;
+   color: #000;
+   font-weight: bold;
+}
+ 
+
+ /* <!-- work experience css- end --/> */
+
+
+
+ /* <!-- Education- css_start--> */
+ 
+
+ /* <!-- Education-end_css--> */
