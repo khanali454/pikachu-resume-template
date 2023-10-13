@@ -5,14 +5,16 @@
     font-family: sans-serif;
 }
 body{
-   background: #c5c5c5;
+   background: #fff;
 }
 .pikachu-resume-cotainer{
     width: 880px;
     max-width: 880px;
-    margin: 20px auto;
+    /* transform: scale(0.6); */
+    margin: 0 auto;
     background: #fff;
     display: flex;
+    border: 1px solid #c5c5c5;
 }
 
 .pikachu-heading{
@@ -45,10 +47,8 @@ body{
 
 .pikachu-resume-left .pikachu-profile-img{
     width: 235px;
-    height: 230px;
-    overflow: hidden;
+    height: 245px;
     border-radius: 5px;
-    overflow: hidden;
 }
 
 .pikachu-resume-left .pikachu-profile-img img{
@@ -89,18 +89,42 @@ margin-bottom: 8px;
 }
 
 /* <!-- skills css --> */
-
-.pikachu-skill-name{
-    margin-top: 5px;
-    margin-bottom: 5px;
+.pikachu-skills-container,.pikachu-languages-container{
+   width: 95%;
 }
-.pikachu-skill-level{
-    font-weight:100;
+.pikachu-skill,.pikachu-language{
+   margin: 10px 0;
 }
 
-.pikachu-skill-indicator{
-    border: 4px solid rgb(43, 122, 249);
-    margin-bottom: 10px;
+.pikachu-skill-name,.pikachu-language-name{
+ font-size: 16px;
+ font-weight: 600;
+}
+.pikachu-skill-level,.pikachu-language-level{
+    margin-top: 4px;
+}
+
+.pikachu-skill-level p,.pikachu-language-level p{
+   color: #9c9fa6;
+   margin-bottom: 3px;
+   text-transform: capitalize;
+}
+
+.pikachu-skill-indicator,.pikachu-language-indicator{
+   height: 8px;
+   width: 0%;
+    background: rgb(43, 122, 249);
+}
+
+.pikachu-skill-indicator.expert,.pikachu-language-indicator.fluent{
+   width: 90%;
+}
+.pikachu-skill-indicator.intermediate,.pikachu-language-indicator.intermediate{
+   width: 60%;
+}
+
+.pikachu-skill-indicator.beginner,.pikachu-language-indicator.conversational{
+   width: 40%;
 }
 
 /* .pikachu-resume-right css */
